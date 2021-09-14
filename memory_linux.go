@@ -25,5 +25,5 @@ func sysFreeMemory() uint64 {
 	// If this is a 32-bit system, then these fields are
 	// uint32 instead of uint64.
 	// So we always convert to uint64 to match signature.
-	return uint64(in.Freeram) * uint64(in.Unit)
+	return uint64(in.Freeram+in.Bufferram) * uint64(in.Unit)
 }
