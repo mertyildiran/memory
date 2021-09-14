@@ -1,3 +1,3 @@
-module github.com/pbnjay/memory
+module github.com/mertyildiran/memory
 
 go 1.16
