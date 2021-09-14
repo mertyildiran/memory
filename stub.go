@@ -1,6 +1,6 @@
 // +build !linux,!darwin,!windows,!freebsd,!dragonfly,!netbsd,!openbsd
 
-package memory
+package memory2
 
 func sysTotalMemory() uint64 {
 	return 0

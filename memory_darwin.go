@@ -1,6 +1,6 @@
 // +build darwin
 
-package memory
+package memory2
 
 import (
 	"os/exec"

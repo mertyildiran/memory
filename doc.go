@@ -1,6 +1,6 @@
 // Package memory provides a single method reporting total system memory
 // accessible to the kernel.
-package memory
+package memory2
 
 // TotalMemory returns the total accessible system memory in bytes.
 //

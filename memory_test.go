@@ -1,4 +1,4 @@
-package memory
+package memory2
 
 import "testing"
 

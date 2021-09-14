@@ -1,6 +1,6 @@
 // +build darwin freebsd openbsd dragonfly netbsd
 
-package memory
+package memory2
 
 import (
 	"syscall"

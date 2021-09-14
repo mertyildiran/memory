@@ -1,6 +1,6 @@
 // +build freebsd openbsd dragonfly netbsd
 
-package memory
+package memory2
 
 func sysTotalMemory() uint64 {
 	s, err := sysctlUint64("hw.physmem")

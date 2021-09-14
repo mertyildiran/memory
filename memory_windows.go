@@ -1,6 +1,6 @@
 // +build windows
 
-package memory
+package memory2
 
 import (
 	"syscall"
