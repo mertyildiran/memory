@@ -15,8 +15,8 @@ See some history of the proposal at https://github.com/golang/go/issues/21816
 ## Example
 
 ```go
-fmt.Printf("Total system memory: %d\n", memory.TotalMemory())
-fmt.Printf("Free memory: %d\n", memory.FreeMemory())
+fmt.Printf("Total system memory: %d\n", memory2.TotalMemory())
+fmt.Printf("Free memory: %d\n", memory2.FreeMemory())
 ```
 
 
